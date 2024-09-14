@@ -99,8 +99,9 @@ nav li{
     margin-top: 30px;
  }
  fieldset{
-    width: 600px;
+    width: 560px;
     height: 470px;
+    background-color: aqua;
     margin-left: 300px;
     margin-top: 100px;
  }
@@ -110,7 +111,7 @@ nav li{
  }
  
  form label{
-    display: block;
+    display: inline-block;
     float: left;
     text-align: center;
     font-size: 16px;
