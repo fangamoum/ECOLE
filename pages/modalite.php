@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+    <head>
+        <title>page des modalites de payement</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=device-widht , initial-scale=1.0">
+        <meta name="description" content="ECOLE-gssi-Israël-Saint Israël de Tampayah">
+        <link rel="stylesheet" href="../css/modalite.css">
+    </head>
+    <body>
+        <header>
+           
+            <h2>REPUBLIQUE DE GUINEE</h2>
+            <P class="travail">Travail-</P>
+            <P class="justice">Justice-</P>
+            <P class="solidarite">solidarite</P>
+
+            <img class="logo" src="../images/logo.jpeg" alt="">
+            <ul>
+                <li class="pri-sec">
+                    <a href="maternelle.php">Maternelle</a>
+                    <a href="primaire.php">Primaire</a>
+                    
+                </li>
+            </ul>
+
+        </header>
+            <nav>
+                <div class="menu">
+                    <ul>
+                    <li class="ind">
+                             <a href="accueil.php">Accueil</a>
+                         </li>
+                         <li  class="ind">
+                             <a href="presentation.php">Présentation</a>
+                         </li>
+                         <li  class="ind">
+                              <a href="classe.php">Classes</a>
+                        </li>
+                         <li  class="ind">
+                             <a  href="inscrpt.php">Inscription</a>
+                         </li>
+
+                        <li  class="ind">
+                             <a href="contact.php">contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <section class="sec1">
+                <div class="div1">
+                    <h2>Page de Renseignement</h2>
+                    <p>
+                        Dans le cadre de son ouverture pour l’année scolaire 2024-2025 <br>
+                        <strong>le Groupe Scolaire Saint Israël de Tambayah</strong>  <br>
+                        informe les parents d’élèves que les inscriptions et réinscriptions ont débuté
+                    </p>
+                </div>
+                <div class="div2">
+                    <h2>Dossiers à fournir:</h2>
+                    <ol>
+                        <ul>
+                            <li>Une copie d’extrait de naissance </li>
+                            <li>Un livret scolaire dûment rempli</li>
+                            <li>Le dernier Bulletin de notes de l'Année précedente</li>
+                            <li>Quatre (4) photos d’identité</li>
+                        </ul>
+                    </ol>
+                    <p>
+                        Toute scolarité entamée est entièrement due. Aucun remboursement n’est possible <br>
+                        Un test d’accueil est organisé pour tous les nouveaux élèves des classes d’examens. <br>
+                        Cours d’anglais et d’informatique disponible à partir de la 3èmeannée. <br>
+                    </p>
+                </div>
+                <div class="div3">
+                    <img src="../images/logo.jpeg" alt="">
+                    <p>Inscription: 30000 gnf</p>
+                    <p>Réinscription: 25000 gnf</p>
+                    <p>Carte de Bus: 5000 gnf</p>
+                    <p>Bulletin de Notes: 10000 gnf</p>
+                    <p>Informatique: 50000 gnf</p>
+                </div>
+                <div class="div4">
+                    <img src="../images/mod.jpeg" alt="">
+                    <p>
+                        ouverture des classes <br>
+                        Année scolaire 2023-2024
+                    </p>
+                </div>
+                <table >
+                    <caption>Modalités de payement</caption>
+                    <tr>
+                        <th>Niveau</th>
+                        <th>Mois</th>
+                        <th>1ère Tranche</th>
+                        <th>2ème Tranche</th>
+                        <th>3ème Tranche</th>
+                        <th>Annuelle</th>
+                    </tr>
+                    <tr>
+                        <td  colspan="6">Maternelles</td>
+                    </tr>
+                    <tr>
+                        <td>PS-MS-GS</td>
+                        <td>60 000 gnf</td>
+                        <td>250 000 gnf</td>
+                        <td>200 000 gnf</td>
+                        <td>90 000 gnf</td>
+                        <td>540 000 gnf</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">Primaire</td>
+                    </tr>
+                    <tr>
+                        <td>1ère & 2ème Année</td>
+                        <td>70 000 gnf</td>
+                        <td>300 000 gnf</td>
+                        <td>200 000 gnf</td>
+                        <td>170 000 gnf</td>
+                        <td>630 000 gnf</td>
+                    </tr>
+                    <tr>
+                        <td>3ème & 4ème Année</td>
+                        <td>75 000 gnf</td>
+                        <td>300 000 gnf</td>
+                        <td>200 000 gnf</td>
+                        <td>175 000 gnf</td>
+                        <td>675 000 gnf</td>
+                    </tr>
+                    <tr>
+                        <td>5ème Année</td>
+                        <td>80 000 gnf</td>
+                        <td>400 000 gnf</td>
+                        <td>200 000 gnf</td>
+                        <td>120 000 gnf</td>
+                        <td>720 000 gnf</td>
+                    </tr>
+                    <tr>
+                        <td>6ème Année</td>
+                        <td>90 000 gnf</td>
+                        <td>400 000 gnf</td>
+                        <td>300 000 gnf</td>
+                        <td>110 000 gnf</td>
+                        <td>810 000 gnf</td>
+                    </tr>
+                    
+                </table>
+            </section>
+            <footer>
+
+                <a class="pied1" href="accueil.php">Inscription en ligne</a> <br>
+                <a class="pied1" href="maternelle.php">Maternelle</a>  <br>
+                <a class="pied1" href="primaire.php">Primaire</a>   <br>
+                <a class="pied1" href="modalite.php">Modalités de payement</a>  <br>
+                <a class="pied2"  href="rejoindre.php">Nous rejoindre</a>  <br>
+                <a class="pied2" href="equipe.php">Notre Equipe</a>  <br>
+                <a class="pied2" href="contact.php">Nous contacter</a>  <br>
+                <a class="whatsapt2" href="https://wa.me/624707618" title="contactez-nous sur whatsapt"> </a>
+                <a class="facebook" href="https://www.facebook.com/groupe scolaire Saint Israël" title="Réjoignez-nous sur facebook"></a>
+                
+                
+                <section class="sec-pied">
+                <p>copyright 2024 GS SAINT ISRAEL</p>
+                </section>
+               </footer>
+    </body>
+</html>

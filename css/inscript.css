@@ -1,0 +1,571 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+/*entête de la page*/
+header{
+    height: 100%;
+}
+
+header h2{
+    font-size: 25px;
+    margin-top:20px ;
+    margin-left: 30px;
+}
+header .travail{
+    font-size: 13px;
+    color: red;
+    float: left;
+    margin-left: 100px;
+    margin-top: -15px;
+    
+}
+header .justice{
+    font-size: 13px;
+    color: yellow;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+header .solidarite{
+    font-size: 13px;
+    color: green;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+    
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.pri-sec{
+   margin-left: 650px;
+   margin-top: -40px;
+   display:block;
+   word-spacing: 20px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+  
+}
+.pri-sec a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px black;
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 3px blue;
+   
+}
+nav ul  {
+    list-style: none;
+}
+nav li{
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 40px;
+}
+ nav a{
+     text-decoration: none;
+     margin-left: 0px;
+     color: black;
+     padding: 10px 20px;
+     font-size: 25px;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .ind :hover{
+    background-color: yellowgreen;
+ }
+ /*section1*/
+ .sec1{
+    width: 100%;
+    height: 950px;
+    margin-top: 40px;
+    border-bottom:1px solid rgb(185, 183, 183) ;
+    
+ }
+ .sec1 h1{
+    text-align: center;
+    text-transform: uppercase;
+   margin-top: -10px;
+
+}
+ 
+ .t1{
+    width: 100px;
+    height: 7px;
+    background-color: blue;
+    position: relative;
+    left: 135px;
+    top: 7px;
+ }
+ .p-intro{
+    width: 600px;
+    height: 200px;
+    margin-left: 330px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+    background-color: rgb(230, 227, 227) ;
+ }
+ .p-intro a{
+    background-color: yellowgreen;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 380px;
+    color: black;
+ }
+ .sec1 img{
+    width: 800px;
+    height: 400px;
+    margin-left: 220px;
+    box-shadow: 0px 0px 3px yellowgreen;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.sec1 strong{
+    margin-left: 100px;
+    line-height: 15px;
+    text-decoration: underline;
+    
+}
+.p-pourquoi{
+    margin-left: 80px;
+    font-size: 18px;
+    line-height: 15px;
+
+}
+
+/*section2*/
+.sec2{
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+ }
+ 
+ .sec2 h2{
+    font-size: 35px;
+    margin-left: 250px;
+    margin-top: -20px;
+ }
+ .rdv{
+    width: 400px;
+    height: 210px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px yellowgreen;
+    background-color: violet;
+
+ }
+ .rdv a{
+    text-decoration: none;
+    background-color: yellowgreen;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px blue;
+    color: white;
+    font-weight: bold;
+ }
+ .rdv strong{
+    text-decoration: underline;
+    
+ }
+ 
+ .ins-formul{
+    width: 420px;
+    height: 210px;
+    text-align: center;
+    margin-left: 700px;
+    font-size: 25px;
+    margin-top: -235px;
+   box-shadow: 0px 0px 3px yellowgreen;
+   background-color: violet;
+}
+.ins-formul a{
+    text-decoration: none;
+    background-color: yellowgreen;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px blue;
+    color: white;
+    font-weight: bold;
+}
+.ins-formul strong{
+    text-decoration: underline;
+    
+ }
+
+
+/*pied de page*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 600px;
+    top: -150px
+    
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 590px;
+   
+    
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+    
+}  
+footer .pied1{
+    color: white;
+    font-size: 18px;
+    margin-left:50px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 18px;
+    margin-left:300px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+    
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+   
+}
+
+@media screen and (min-width:480px) and (max-width:780px){
+
+    /*entête de la page*/
+header{
+   height: 50%;
+}
+
+header h2{
+   font-size: 15px;
+   margin-top:20px ;
+}
+header .travail{
+   font-size: 13px;
+   color: red;
+   float: left;
+   margin-left: 50px;
+   margin-top: -15px;
+   
+}
+header .justice{
+   font-size: 13px;
+   color: yellow;
+   float: left;
+   margin-left: 5px;
+   margin-top: -15px;
+}
+header .solidarite{
+   font-size: 13px;
+   color: green;
+   float: left;
+   margin-left: 5px;
+   margin-top: -15px;
+   
+}
+
+.logo{
+   width: 80px;
+   height: 50px;
+   margin-left: 50px;
+   margin-top: -50px;
+}
+.pri-sec{
+  margin-left: 280px;
+  margin-top: -40px;
+  display:block;
+  word-spacing: 20px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+ 
+}
+.pri-sec a{
+   color: white;
+   background-color: orange;
+   text-decoration: none;
+   box-shadow: 0px 0px 2px black;
+
+
+}
+nav{
+   width: 100%;
+   height: 40px;
+   box-shadow: 0px 0px 2px blue;
+   
+  
+}
+nav ul  {
+   list-style: none;
+   margin-left: 0px;
+   padding-left: 0px;
+}
+nav li{
+   float: left;
+   display: inline-block;
+   margin-left: 0px;
+   padding-left: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.ind :hover{
+   background-color: yellowgreen;
+   
+}
+
+/*section1*/
+.sec1{
+    width: 100%;
+    height: 960px;
+    margin-top: 20px;
+    border-bottom:1px solid rgb(185, 183, 183) ;
+   
+ }
+ .sec1 h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:0px;
+    font-size: 14px;
+    margin-left: 25px;
+
+}
+ 
+ .t1{
+    width: 30px;
+    height: 5px;
+    background-color: blue;
+    position: relative;
+    left: 5px;
+    top: 10px;
+ }
+ .p-intro{
+    width: 100%;
+    height: 140px;
+    margin-left:0px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0px;
+    background-color: rgb(230, 227, 227) ;
+ }
+ .p-intro a{
+    font-size: 14px;
+    margin-left: 280px;
+ }
+ .sec1 img{
+    width: 473px;
+    height: 400px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 1px yellowgreen;
+    margin-top: 10px;
+
+}
+
+.sec1 strong{
+    margin-left: 50px;
+    line-height: 15px;
+    text-decoration: underline;
+    
+}
+.p-pourquoi{
+    margin-left: 60px;
+    font-size: 18px;
+    line-height: 15px;
+
+}
+
+/*section2*/
+.sec2{
+    width: 100%;
+    height: 530px;
+    margin-top: 40px;
+    
+ }
+ 
+ .sec2 h2{
+    font-size: 35px;
+    margin-left: 45px;
+    margin-top: -10px;
+ }
+ .rdv{
+    width: 420px;
+    height: 210px;
+    text-align: center;
+    margin-left: 45px;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px yellowgreen;
+    background-color: violet;
+
+ }
+ .rdv a{
+    text-decoration: none;
+    background-color: yellowgreen;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px blue;
+    color: white;
+    font-weight: bold;
+ }
+ .rdv strong{
+    text-decoration: underline;
+    
+ }
+ 
+ .ins-formul{
+    width: 420px;
+    height: 210px;
+    text-align: center;
+    margin-left: 45px;
+    font-size: 25px;
+    margin-top: 5px;
+   box-shadow: 0px 0px 3px yellowgreen;
+   background-color: violet;
+}
+.ins-formul a{
+    text-decoration: none;
+    background-color: yellowgreen;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px blue;
+    color: white;
+    font-weight: bold;
+}
+.ins-formul strong{
+    text-decoration: underline;
+    
+ }
+
+
+/*pied de page*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 300px;
+    top: -150px
+    
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 370px;
+   
+    
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+    
+}  
+footer .pied1{
+    color: white;
+    font-size: 15px;
+    margin-left:10px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 15px;
+    margin-left:200px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+    
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+   
+}
+}
+
+
+
+

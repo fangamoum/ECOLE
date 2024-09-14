@@ -1,0 +1,665 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+/*entête de la page*/
+header{
+    height: 100%;
+}
+
+header h2{
+    font-size: 25px;
+    margin-top:20px ;
+    margin-left: 30px;
+}
+header .travail{
+    font-size: 13px;
+    color: red;
+    float: left;
+    margin-left: 100px;
+    margin-top: -15px;
+    
+}
+header .justice{
+    font-size: 13px;
+    color: yellow;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+header .solidarite{
+    font-size: 13px;
+    color: green;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+    
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.pri-sec{
+   margin-left: 650px;
+   margin-top: -40px;
+   display:block;
+   word-spacing: 20px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+  
+}
+.pri-sec a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px black;
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 3px blue;
+   
+}
+nav ul  {
+    list-style: none;
+}
+nav li{
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 40px;
+}
+ nav a{
+     text-decoration: none;
+     margin-left: 0px;
+     color: black;
+     padding: 10px 20px;
+     font-size: 25px;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .ind :hover{
+    background-color: yellowgreen;
+    
+ }
+
+ /*section 1*/
+
+ .sec1{
+    width: 100%;
+    height: 860px;
+    border-bottom: 1px solid rgb(187, 185, 185);
+ }
+ .div1{
+    width: 480px;
+    height: 560px;
+    margin-left: 80px;
+    text-align: center;
+ }
+ .div1 img{
+    width: 400px;
+    height: 350px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 20px;
+    border-radius:20px ;
+
+ }
+ .div1 p{
+    font-size: 16px;
+
+}
+.div1 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+ .div1-1{
+    width: 600px;
+    height: 300px;
+    border: 1px double rgb(0, 255, 47);
+    margin-left: 600px;
+    margin-top: -540px;
+    font-size: 18px;
+    border-radius: 30px;
+    line-height: 25px;
+ }
+ .div1-1 p{
+    text-align: center;
+ }
+
+ .div2{
+    width: 500px;
+    height: 530px;
+    margin-left: 650px;
+    text-align: center;
+    margin-top: 10px;
+ }
+ .div2 img{
+    width: 400px;
+    height: 350px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 20px;
+    border-radius:20px ;
+}
+.div2 p{
+    font-size: 16px;
+}
+.div2 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+ /*section 2*/
+ .sec2{
+    width: 100%;
+    height: 1110px;
+    margin-top: 30px;
+ }
+ .div3{
+    width: 480px;
+    height: 520px;
+    margin-left: 80px;
+    text-align: center;
+ }
+ .div3 img{
+    width: 400px;
+    height: 350px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 20px;
+    border-radius:20px ;
+}
+.div3 p{
+    font-size: 16px;
+
+}
+.div3 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.div4{
+    width: 480px;
+    height: 520px;
+    margin-left: 700px;
+    margin-top: -521px;
+    text-align: center;
+ }
+ .div4 img{
+    width: 400px;
+    height: 350px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 20px;
+    border-radius:20px ;
+}
+.div4 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.div4 p{
+    font-size: 16px;
+
+}
+.div5{
+    width: 480px;
+    height: 520px;
+    margin-left: 80px;
+    margin-top: 10px;
+    text-align: center;
+ }
+ .div5 img{
+    width: 400px;
+    height: 350px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 20px;
+    border-radius:20px ;
+}
+.div5 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.div5 p{
+    font-size: 16px;
+
+}
+.div6{
+    width: 480px;
+    height: 520px;
+    margin-left: 700px;
+    margin-top: -521px;
+    text-align: center;
+ }
+ .div6 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+ .div6 p{
+    font-size: 16px;
+
+}
+ .div6 img{
+    width: 400px;
+    height: 350px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 20px;
+    border-radius:20px ;
+
+ }
+ 
+ 
+
+ 
+ /*pied de la page*/
+
+ footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 600px;
+    top: -150px
+    
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 590px;
+   
+    
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+    
+}  
+footer .pied1{
+    color: white;
+    font-size: 18px;
+    margin-left:50px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 18px;
+    margin-left:300px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+    
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+   
+}
+@media screen and (min-width:480px) and (max-width:780px) {
+    
+/*entête de la page*/
+header{
+ height: 50%;
+}
+header h2{
+   font-size: 15px;
+}
+header .travail{
+   font-size: 13px;
+   color: red;
+   float: left;
+   margin-left: 50px;
+   margin-top: -15px;
+}
+header .justice{
+   font-size: 13px;
+   color: yellow;
+   float: left;
+   margin-left: 5px;
+   margin-top: -15px;
+}
+header .solidarite{
+   font-size: 13px;
+   color: green;
+   float: left;
+   margin-left: 5px;
+   margin-top: -15px;
+}
+.logo{
+   width: 80px;
+   height: 50px;
+   margin-left: 50px;
+   margin-top: -50px;
+}
+.pri-sec{
+  margin-left: 280px;
+  margin-top: -40px;
+  display:block;
+  word-spacing: 20px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+ 
+}
+.pri-sec a{
+   color: white;
+   background-color: orange;
+   text-decoration: none;
+   box-shadow: 0px 0px 2px black;
+}
+nav{
+   width: 100%;
+   height: 40px;
+   box-shadow: 0px 0px 2px blue;
+}
+nav ul {
+   list-style: none;
+   margin-left: 0px;
+   padding-left: 0px;
+}
+nav li{
+   float: left;
+   display: inline-block;
+   margin-left: 0px;
+   padding-left: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.ind :hover{
+   background-color: yellowgreen;
+   
+}
+
+/*section 1*/
+
+.sec1{
+    width: 100%;
+    height: 840px;
+    border-bottom: 1px solid rgb(187, 185, 185);
+    
+ }
+ .div1{
+    width: 250px;
+    height: 320px;
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 0px;
+ }
+ .div1 img{
+    width: 200px;
+    height: 180px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 5px;
+    border-radius:20px ;
+}
+ .div1 p{
+    font-size: 11px;
+}
+.div1 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+ .div1-1{
+    width: 450px;
+    height: 320px;
+    border: 1px double rgb(0, 255, 47);
+    margin-left: 20px;
+    margin-top: 300px;
+    font-size: 14px;
+    border-radius: 30px;
+    line-height: 25px;
+    position: relative;
+    top: -150px;
+ }
+ .div1-1 p{
+    text-align: center;
+ }
+
+ .div2{
+    width: 255px;
+    height: 320px;
+    text-align: center;
+    padding-left: 0px;
+    margin-left: 225px;
+    margin-top: -820px;
+    
+ }
+ .div2 img{
+    width: 200px;
+    height: 180px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 5px;
+    border-radius:20px ;
+}
+.div2 p{
+    font-size: 11px;
+}
+.div2 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+ /*section 2*/
+ .sec2{
+    width: 100%;
+    height: 900px;
+    margin-top: 30px;
+ }
+ .div3{
+    width: 255px;
+    height: 320px;
+    margin-left: 0px;
+    text-align: center;
+ }
+ .div3 img{
+    width: 200px;
+    height: 180px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 5px;
+    border-radius:20px ;
+}
+.div3 p{
+    font-size: 12px;
+
+}
+.div3 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.div4{
+    width: 255px;
+    height: 320px;
+    text-align: center;
+    margin-left: 225px;
+    margin-top: -240px;
+ }
+ .div4 img{
+    width: 200px;
+    height: 180px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius:20px ;
+}
+.div4 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.div4 p{
+    font-size: 12px;
+
+}
+.div5{
+    width: 255px;
+    height: 320px;
+    margin-left: 0px;
+    text-align: center;
+ }
+ .div5 img{
+    width: 200px;
+    height: 180px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 5px;
+    border-radius:20px ;
+}
+.div5 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.div5 p{
+    font-size: 12px;
+
+}
+.div6{
+    width: 255px;
+    height: 320px;
+    text-align: center;
+    margin-left: 225px;
+    margin-top: -200px;
+ }
+ .div6 img{
+    width: 200px;
+    height: 180px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius:20px ;
+}
+ .div6 strong{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+ .div6 p{
+    font-size: 12px;
+
+}
+ 
+ /*pied de page*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 300px;
+    top: -150px
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 370px;
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+}  
+footer .pied1{
+    color: white;
+    font-size: 15px;
+    margin-left:10px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 15px;
+    margin-left:200px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+}
+}

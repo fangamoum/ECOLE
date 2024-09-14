@@ -1,0 +1,1180 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.whatsapt{
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: fixed;
+    right:10px ;
+    bottom: 90px;
+    
+}
+
+/*entête de la page*/
+header{
+    height: 100%;
+}
+
+header h2{
+    font-size: 25px;
+    margin-top:20px ;
+    margin-left: 30px;
+}
+header .travail{
+    font-size: 13px;
+    color: red;
+    float: left;
+    margin-left: 100px;
+    margin-top: -15px;
+    
+}
+header .justice{
+    font-size: 13px;
+    color: yellow;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+header .solidarite{
+    font-size: 13px;
+    color: green;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+    
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.pri-sec{
+   margin-left: 650px;
+   margin-top: -40px;
+   display:block;
+   word-spacing: 20px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+  
+}
+.pri-sec a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px black;
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 3px blue;
+    
+   
+}
+nav ul  {
+    list-style: none;
+}
+nav li{
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 30px;
+}
+ nav a{
+     text-decoration: none;
+     margin-left: 30px;
+     color: black;
+     padding: 10px ;
+     font-size: 25px;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .ind :hover{
+    background-color: yellowgreen;
+    
+ }
+
+/*section1*/
+
+.sec1{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    
+}
+
+.presentation{
+  width: 620px;
+  height: 450px;
+  background-color: rgb(89, 89, 93);
+  color: white;
+  font-size: 17px;
+  margin-left: 580px;
+  margin-top: -460px;
+  padding: 5px;
+  box-shadow: 0px 0px 3px yellowgreen;
+  
+ }
+ .presentation h1{
+    font-size: 20px;
+   margin-left: 100px;
+ 
+ }
+.presentation h2{
+   font-size: 15px;
+   color: red;
+   text-decoration: overline;
+   margin-left: 200px;
+
+}
+.p1{
+    line-height: 35px;
+}
+.presentation a{
+    color: rgb(19, 17, 17);
+    background-color: yellowgreen;
+    text-decoration: none;
+    margin-left: 60px;
+    font-weight: lighter;
+    position: relative;
+    top : -20px;
+    
+}
+.div-pim{
+    width: 557px;
+    height: 450px;
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 3px yellowgreen
+    
+   
+}
+
+.pres-img{
+    width: 557px;
+    height: 450px;
+    
+}
+
+/*section2*/
+
+.sec2{
+    width: 100%;
+    height: 780px;
+    margin-top: 10px;
+    padding-top: 20px;
+   
+    
+   
+}
+.valeur{
+    width: 1200px;
+    height: 180px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 17px;
+    padding-top: 5px;
+    
+}
+
+.valeur h2{
+    font-size: 40px;
+    margin-top: 0px;
+    font-family: "centuey gothic";
+    font-weight: lighter;
+}
+.tiret{
+    width: 220px;
+    height: 5px;
+    background-color: blue;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+.crea{
+    width: 361px;
+    height: 500px;
+    margin-left: 20px;
+    font-size: 17px;
+    padding-left: 10px;
+    background-color: rgb(251, 253, 253);
+}
+.crea h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "centuey gothic";
+    font-weight: lighter;
+    
+}
+.crea p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: -10px;
+    
+}
+.im-crea{
+    width: 300px;
+    height: 200px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 3px;
+    box-shadow: 0px 0px 3px black;
+}
+.part{
+    width: 361px;
+    height: 500px;
+    margin-left:430px;
+    margin-top: -500px;
+    font-size: 17px;
+    padding-left: 10px;
+    background-color: rgb(251, 253, 253);
+   
+}
+.part h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "centuey gothic";
+    font-weight: lighter;
+    
+}
+.part p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: -10px;
+    
+}
+.im-part{
+    width: 300px;
+    height: 200px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 3px;
+    box-shadow: 0px 0px 3px black;
+}
+.devise{
+    width: 361px;
+    height: 500px;
+    margin-left:840px;
+    margin-top: -500px;
+    font-size: 17px;
+    padding-left: 10px;
+    background-color: rgb(251, 253, 253);
+   
+}
+.devise h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "centuey gothic";
+    font-weight: lighter;
+    
+}
+.devise p{
+    text-align: center;
+    font-size: 18px;
+    margin-left: -10px;
+    
+}
+.im-devise{
+    width: 300px;
+    height: 200px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 3px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.plus{
+    float: right;
+    position: relative;
+    right: 40px;
+    bottom: -20px;
+    background-color: yellowgreen;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+    color: black;
+}
+/* section3 */
+.sec3{
+    width: 100%;
+    height: 800px;
+    margin-top: 5px;
+    
+   
+
+}
+.sec3 h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    
+}
+.p-sec3{
+    margin-left: 100px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.vision{
+    width: 440px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 17px;
+    padding-left: 20px;
+    background-color: rgb(234, 236, 236);
+}
+
+.vision h2{
+    margin-left: 150px;
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.im-vision{
+    width: 400px;
+    height: 300px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 3px;
+    box-shadow: 0px 0px 3px black;
+}
+.mission{
+    width: 440px;
+    height: 500px;
+    margin-left: 700px;
+    margin-top: -520px;
+    padding-left: 20px;
+    background-color: rgb(234, 236, 236);
+   
+}
+.im-mission{
+    width: 400px;
+    height: 300px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 5px ;
+    padding: 3px;
+    box-shadow: 0px 0px 3px black;
+}
+.mission h2{
+    margin-left: 150px;
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*section4*/
+.sec4{
+    width: 100%;
+    height: 600px;
+    padding-top: -100px;
+}
+.sec4 h1{
+    margin-left: 100px;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.tiret1{
+    width: 70px;
+    height: 10px;
+    margin-left:15px ;
+    margin-top: -50px;
+    background-color: blue;
+}
+.tiret2{
+    width: 190px;
+    height: 10px;
+    margin-left:345px ;
+    margin-top: -10px;
+    background-color:blue
+}
+.im-menu{
+   width: 100%;
+   height: 540px;
+   margin-top: 40px;
+   padding-top: 10px;
+   
+}
+.im1{
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+    margin-left: 10px;
+    
+}
+.im2 {
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+}
+.im3{
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+}
+.im4{
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+}
+.im5{
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+    margin-left: 10px;
+}
+.im6{
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+}
+.im7{
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+}
+.im8{
+    width: 293px;
+    height: 250px;
+    box-shadow: 0px 0px 3px black;
+    padding:2px;
+}
+
+
+/*section5*/
+.sec5{
+    width: 100%;
+    height: 430px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(195, 192, 192);
+
+}
+.fonda{
+    width: 400px;
+    height: 400px;
+    margin-top: 5px;
+    position: relative;
+ }
+ .im-fonda{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 1px;
+    box-shadow: 0px 0px 3px black;
+}
+ 
+ .fonda p{
+  padding-left:120px ;
+  font-weight: bold;
+
+ }
+ .message{
+    width: 510px;
+    height: 400px;
+    font-size: 18px;
+    margin-left:410px ;
+    margin-top: -400px;
+ }
+ .message p{
+    text-align: center;
+    padding-top: 20px;
+
+ }
+ .div-video{
+    width: 310px;
+    height: 210px;
+    margin-left: 940px;
+    margin-top: -350px;
+ }
+ .div-video video{
+    width: 300px;
+    height: 200px;
+    padding: 1px;
+    box-shadow: 0px 0px 3px rgb(9, 10, 9);
+
+    
+ }
+
+/*pied de page*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 600px;
+    top: -150px
+    
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 590px;
+   
+    
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+    
+}  
+footer .pied1{
+    color: white;
+    font-size: 18px;
+    margin-left:50px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 18px;
+    margin-left:300px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+    
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+   
+}
+
+/*les mobiles*/
+
+@media screen and (min-width:480px) and (max-width:780px) {
+    
+    /*entête de la page*/
+    header{
+     height: 50%;
+    }
+    header h2{
+       font-size: 15px;
+    }
+    header .travail{
+       font-size: 13px;
+       color: red;
+       float: left;
+       margin-left: 50px;
+       margin-top: -15px;
+    }
+    header .justice{
+       font-size: 13px;
+       color: yellow;
+       float: left;
+       margin-left: 5px;
+       margin-top: -15px;
+    }
+    header .solidarite{
+       font-size: 13px;
+       color: green;
+       float: left;
+       margin-left: 5px;
+       margin-top: -15px;
+    }
+    .logo{
+       width: 80px;
+       height: 50px;
+       margin-left: 50px;
+       margin-top: -50px;
+    }
+    .pri-sec{
+      margin-left: 280px;
+      margin-top: -40px;
+      display:block;
+      word-spacing: 20px;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: capitalize;
+     
+    }
+    .pri-sec a{
+       color: white;
+       background-color: orange;
+       text-decoration: none;
+       box-shadow: 0px 0px 2px black;
+    }
+    nav{
+       width: 100%;
+       height: 40px;
+       box-shadow: 0px 0px 2px blue;
+    }
+    nav ul {
+       list-style: none;
+       margin-left: 12px;
+       padding-left: 0px;
+    }
+    nav li{
+       float: left;
+       display: inline-block;
+       margin-left: 0px;
+       padding-left: 0px;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: 3px;
+    }
+    .ind :hover{
+       background-color: yellowgreen;
+       
+    }
+    
+ 
+  /*section1*/
+ 
+ .sec1{
+     width: 100%;
+     height: 620px;
+     margin-top: 30px;
+     
+ }
+ .div-pim{
+     width: 410px;
+     height: 280px;
+     box-shadow: 0px 0px 3px yellowgreen;
+     margin-left: 40px;
+     
+    
+ }
+ 
+ .pres-img{
+     width: 410px;
+     height: 280px;
+     margin-left: 0px;
+     border: 1px solid blue;
+     
+ }
+ 
+ 
+ .presentation{
+   width: 410px;
+   height: 280px;
+   background-color: rgb(89, 89, 93);
+   color: white;
+   font-size: 10px;
+   box-shadow: 0px 0px 3px yellowgreen;
+   margin-left: 40px;
+   margin-top: 5px;
+   
+  }
+  .presentation h1{
+     font-size: 18px;
+     margin-left: 30px;
+  
+  }
+ .presentation h2{
+    font-size: 13px;
+    color: red;
+    text-decoration: overline;
+    margin-left: 100px;
+   
+ }
+ .p1{
+     line-height: 20px;
+     font-size: 13px;
+ }
+ .presentation a{
+     color: rgb(19, 17, 17);
+     background-color: yellowgreen;
+     text-decoration: none;
+     margin-left: 60px;
+     font-weight: lighter;
+     position: relative;
+     top : -9px;
+     font-size: 14px;
+     
+ }
+ 
+ /*section2*/
+ 
+ .sec2{
+     width: 100%;
+     height: 850px;
+     margin-top: 10px;
+     padding-top: 20px;
+    
+     
+    
+ }
+ .valeur{
+     width: 460px;
+     height: 150px;
+     padding-top: 5px;
+     padding-left: 20px;
+     margin-left: 0px;
+     
+ }
+ .valeur p{
+     
+     margin-left: 15px;
+     
+ }
+ 
+ .valeur h2{
+     font-size: 20px;
+     font-family: "centuey gothic";
+     font-weight: lighter;
+     font-size: 30px;
+    
+ }
+ 
+ .tiret{
+     width: 100px;
+     height: 5px;
+     background-color: blue;
+     margin-left: 150px;
+     margin-top: -40px;
+ }
+ .crea{
+     width: 229px;
+     height: 300px;
+     margin-left: 1px;
+     font-size: 15px;
+     padding-left: 10px;
+     background-color: rgb(251, 253, 253);
+ }
+ .crea h2{
+     text-align: center;
+     font-size: 18px;
+     font-family: "centuey gothic";
+     font-weight: lighter;
+     
+ }
+ .crea p{
+     text-align: center;
+     font-size: 14px;
+     
+ }
+ .im-crea{
+     width: 200px;
+     height: 110px;
+     padding-bottom: 40px;
+     margin-top: 20px;
+     margin-left: 5px;
+     padding: 1px;
+     box-shadow: 0px 0px 3px black;
+ }
+ .part{
+     width: 229px;
+     height: 300px;
+     margin-left:243px;
+     margin-top: -300px;
+     padding-left: 10px;
+     background-color: rgb(251, 253, 253);
+    
+ }
+ .part h2{
+     text-align: center;
+     font-size: 18px;
+     font-family: "centuey gothic";
+     font-weight: lighter;
+     
+ }
+ .part p{
+     text-align: center;
+     font-size: 14px;
+     margin-left: -10px;
+     
+ }
+ .im-part{
+     width: 200px;
+     height: 110px;
+     margin-top: 20px;
+     margin-left: 5px;
+     box-shadow: 0px 0px 3px black;
+     padding: 1px;
+ }
+ .devise{
+     width: 260px;
+     height: 320px;
+     margin-left: 80px;
+     margin-top: 5px;
+     font-size: 17px;
+     padding-left: 80px;
+     background-color: rgb(251, 253, 253);
+    
+ }
+ .devise h2{
+     text-align: center;
+     font-size: 18px;
+     font-family: "centuey gothic";
+     font-weight: lighter;
+     margin-left: -80px;
+     
+ }
+ .devise p{
+     text-align: center;
+     font-size: 14px;
+     margin-left: -10px;
+     margin-left: -80px;
+     
+ }
+ .im-devise{
+     width: 280px;
+     height: 150px;
+     margin-top: 20px;
+     margin-left: -50px;
+     padding: 1px;
+     box-shadow: 0px 0px 3px black;
+ }
+ 
+ .plus{
+     float: right;
+     position: relative;
+     right: 60px;
+     bottom: -5px;
+     background-color: yellowgreen;
+     text-decoration: none;
+     font-size: 14px;
+     font-weight: lighter;
+     color: black;
+ }
+ 
+ /* section3 */
+ .sec3{
+     width: 100%;
+     height: 1330px;
+     margin-top: 5px;
+     
+ }
+ .sec3 h1{
+     text-align: center;
+     font-size: 30px;
+     font-weight: lighter;
+     
+ }
+ .p-sec3{
+     font-size: 15px;
+     margin-left: 0px;
+ 
+ }
+ 
+ .vision{
+     
+     width: 440px;
+     height: 500px;
+     margin-top: 50px;
+     margin-left: 15px;
+     font-size: 17px;
+     padding-left: 20px;
+     background-color: rgb(234, 236, 236);
+ }
+ 
+ .vision h2{
+     margin-left: 150px;
+     color: red;
+     text-decoration: underline;
+     font-weight: bold;
+ }
+ .im-vision{
+     width: 400px;
+     height: 300px;
+     padding-bottom: 40px;
+     margin-top: 0px;
+     margin-left: 0px;
+     padding: 3px;
+     box-shadow: 0px 0px 3px black;
+ }
+ .mission{
+     width: 440px;
+     height: 500px;
+     margin-left: 15px;
+     margin-top: 0px;
+     padding-left: 20px;
+     background-color: rgb(234, 236, 236);
+    
+ }
+ .im-mission{
+     width: 400px;
+     height: 300px;
+     padding-bottom: 40px;
+     margin-top: 10px;
+     margin-left: 5px ;
+     padding: 3px;
+     box-shadow: 0px 0px 3px black;
+ }
+ .mission h2{
+     margin-left: 150px;
+     color: red;
+     text-decoration: underline;
+     font-weight: bold;
+ }
+ 
+ /*section4*/
+ .sec4{
+     width: 100%;
+     height: 700px;
+    
+    
+ }
+ .sec4 h1{
+     margin-left:55px;
+     font-weight: lighter;
+     font-size: 30px;
+ }
+ 
+ .tiret1{
+     width: 50px;
+     height: 5px;
+     margin-left:0px ;
+     margin-top: -45px;
+     background-color: blue;
+ }
+ .tiret2{
+     width: 80px;
+     height: 5px;
+     margin-left:270px ;
+     margin-top: -3px;
+     background-color:blue
+ }
+ .im-menu{
+    width: 100%;
+    height: 640px;
+    margin-top: 40px;
+    padding-top: 10px;
+    
+ }
+ .im1{
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+     margin-left: 5px;
+     
+ }
+ .im2 {
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+ }
+ .im3{
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+     margin-left: 5px;
+ }
+ .im4{
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+ }
+ .im5{
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+     margin-left: 5px;
+ }
+ .im6{
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+ }
+ .im7{
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+     margin-left: 5px;
+ }
+ .im8{
+     width: 230px;
+     height: 150px;
+     box-shadow: 0px 0px 3px black;
+     padding:1px;
+ }
+ /*section5*/
+ .sec5{
+     width: 100%;
+     height: 900px;
+     margin-top: 10px;
+     border-bottom: 1px solid rgb(195, 192, 192);
+ 
+ }
+ .fonda{
+     width: 320px;
+     height: 380px;
+     margin-top: 10px;
+     margin-left: 100px;
+     position: relative;
+  }
+  .im-fonda{
+     width: 300px;
+     height: 300px;
+     margin-left: 5px;
+     margin-top: 10px;
+     padding: 1px;
+     box-shadow: 0px 0px 3px black;
+ }
+  
+  .fonda p{
+   padding-left:80px ;
+   font-weight: bold;
+ 
+ 
+  }
+  .message{
+     width: 400px;
+     height: 280px;
+     margin-left:50px ;
+     margin-top: 2px;
+  }
+  .message p{
+     text-align: center;
+     padding-top: 0px;
+     font-size: 14px;
+ 
+  }
+  .div-video{
+     width: 330px;
+     height: 220px;
+     margin-left: 50px;
+     margin-top: 10px;
+     padding-left: 50px;
+  }
+  .div-video video{
+     width: 300px;
+     height: 200px;
+     padding: 1px;
+     
+     box-shadow: 0px 0px 3px rgb(9, 10, 9);
+ 
+     
+  }
+ 
+ /*pied de page*/
+ footer{
+     width: 100%;
+     height: 300px;
+     background-color: rgb(102, 104, 104);
+     color: white;
+     font-size: 16px;
+ }
+ .whatsapt2 , .facebook{
+     
+     width: 30px;
+     height: 30px;
+     display: block;
+     float: left;
+     position: relative;
+     left: 300px;
+     top: -150px
+     
+ }
+ .whatsapt2{
+     background-image: url(../images/im17.png);
+     background-position: 0px 0px;
+     border-radius: 50px;
+     background-size: cover;
+     position: relative;
+     left: 370px;
+    
+     
+ }
+ .facebook{
+     background-image: url(../images/f1.png);
+     background-position: 0px 0px;
+     border-radius: 50%; /* Cela rend l'icône circulaire */
+     background-size: cover;
+     
+ }  
+ footer .pied1{
+     color: white;
+     font-size: 15px;
+     margin-left:10px ;
+     text-decoration: none;
+     line-height: 30px;
+     font-family:Arial, Helvetica, sans-serif;
+     position: relative;
+     top :40px
+ }
+ footer .pied2{
+     color: white;
+     font-size: 15px;
+     margin-left:200px ;
+     text-decoration: none;
+     line-height: 30px;
+     font-family:Arial, Helvetica, sans-serif;
+     position: relative;
+     top :-80px
+     
+ }
+ .sec-pied{
+     width: 100%;
+     height: 95px;
+     background-color: rgb(102, 104, 104);
+     border-top: 1px solid white;
+ }
+ footer p{
+     text-align: center;
+     color: white;
+     padding-top: 25px;
+     font-weight: lighter;
+    
+ }
+}
+ 
+ 
+ 
+  

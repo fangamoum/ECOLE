@@ -1,0 +1,587 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+/*entête de la page*/
+header{
+    height: 100%;
+}
+
+header h2{
+    font-size: 25px;
+    margin-top:20px ;
+    margin-left: 30px;
+}
+header .travail{
+    font-size: 13px;
+    color: red;
+    float: left;
+    margin-left: 100px;
+    margin-top: -15px;
+    
+}
+header .justice{
+    font-size: 13px;
+    color: yellow;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+header .solidarite{
+    font-size: 13px;
+    color: green;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+    
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.pri-sec{
+   margin-left: 650px;
+   margin-top: -40px;
+   display:block;
+   word-spacing: 20px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+  
+}
+.pri-sec a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px black;
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 3px blue;
+   
+}
+nav ul  {
+    list-style: none;
+}
+nav li{
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 40px;
+}
+ nav a{
+     text-decoration: none;
+     margin-left: 0px;
+     color: black;
+     padding: 10px 20px;
+     font-size: 25px;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .ind :hover{
+    background-color: yellowgreen;
+ }
+
+ /*section1*/
+ .sec1{
+    width: 100%;
+    height: 990px;
+    
+ }
+ .menu1{
+    width: 505px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 0px 4px yellowgreen;
+    background-color: aliceblue;
+
+ }
+ .adresse{
+    width: 300px;
+    height: 150px;
+  
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 30px;
+ }
+ .adresse strong{
+    font-size: 20px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+
+ }
+ .horaire{
+    width: 300px;
+    height: 150px;
+    margin-top: -200px;
+   
+    margin-left: 470px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+ }
+ .horaire strong{
+    font-size: 20px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+
+ }
+ .mail{
+    width: 350px;
+    height: 150px;
+   
+    margin-top: -155px;
+    margin-left: 850px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+
+ }
+ .mail strong{
+    font-size: 20px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+ }
+ .im1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -45px;
+    left: -110px;
+ }  
+ .im2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -40px;
+    left: -170px;
+ }
+ fieldset{
+    width: 320px;
+    height: 500px;
+    padding: 20px;
+    margin-left: 480px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 4px yellowgreen;
+   
+   
+ }
+ form label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+ }
+ form  input {
+    
+    font-size: 18px;
+    display:block;
+    width: 300px;
+   
+    
+ }
+ form  textarea {
+    float: bottom;
+    padding-bottom: 100px;
+    padding-right: 150px;
+   
+    margin-left: 0px;
+    
+    
+ }
+ legend{
+    font-size: 18px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+
+ }
+ .bouton{
+   text-align: center;
+   font-size: 18px;
+   background-color: orange;
+   font-weight: bold;
+   width: 150px;
+   margin-left: 80px;
+   border-radius: 5px;
+   color: white;
+   border-top: 2px solid white;
+
+ }
+ .message{
+   background-color: red;
+   width: 320px;
+   height: 20px;
+   text-align: center;
+ }
+ 
+
+
+/*pied de la page*/
+ footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 600px;
+    top: -150px
+    
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 590px;
+   
+    
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+    
+}  
+footer .pied1{
+    color: white;
+    font-size: 18px;
+    margin-left:50px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 18px;
+    margin-left:300px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+    
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+}
+@media screen and (min-width:480px) and (max-width:780px){
+
+/*entête de la page*/
+
+header{
+    height: 50%;
+   }
+   header h2{
+      font-size: 15px;
+   }
+   header .travail{
+      font-size: 13px;
+      color: red;
+      float: left;
+      margin-left: 50px;
+      margin-top: -15px;
+   }
+   header .justice{
+      font-size: 13px;
+      color: yellow;
+      float: left;
+      margin-left: 5px;
+      margin-top: -15px;
+   }
+   header .solidarite{
+      font-size: 13px;
+      color: green;
+      float: left;
+      margin-left: 5px;
+      margin-top: -15px;
+   }
+   .logo{
+      width: 80px;
+      height: 50px;
+      margin-left: 50px;
+      margin-top: -50px;
+   }
+   .pri-sec{
+     margin-left: 280px;
+     margin-top: -40px;
+     display:block;
+     word-spacing: 20px;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: capitalize;
+    
+   }
+   .pri-sec a{
+      color: white;
+      background-color: orange;
+      text-decoration: none;
+      box-shadow: 0px 0px 2px black;
+   }
+   nav{
+      width: 100%;
+      height: 40px;
+      box-shadow: 0px 0px 2px blue;
+   }
+   nav ul {
+      list-style: none;
+      margin-left: 0px;
+      padding-left: 0px;
+   }
+   nav li{
+      float: left;
+      display: inline-block;
+      margin-left: 0px;
+      padding-left: 0px;
+   }
+   nav a{
+       text-decoration: none;
+       color: black;
+       font-size: 9px;
+       display: inline-block;
+       text-transform: uppercase;
+       font-weight: bold;
+       margin-left: 2px;
+   }
+   .ind :hover{
+      background-color: yellowgreen;
+      
+   }
+
+   /*section 1*/
+ .sec1{
+    width: 100%;
+    height: 1040px;
+    
+ }
+ .menu1{
+    width: 460px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 0px 4px yellowgreen;
+    background-color: aliceblue;
+
+ }
+ .adresse{
+    width: 250px;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 0px;
+    font-size: 13px;
+    line-height: 25px;
+    padding-top: 5px;
+ }
+ .adresse strong{
+    font-size: 15px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+
+ }
+ .horaire{
+    width: 238px;
+    height: 135px;
+    margin-top: -136px;
+    margin-left: 242px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    padding-top: -15px;
+    border-left: 1px solid rgb(176, 174, 174);
+}
+ .horaire strong{
+    font-size: 15px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+    position: relative;
+    top:-4px;
+    
+ }
+ .mail{
+    width: 350px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+
+ }
+    
+.mail strong{
+    font-size: 20px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+ }
+ .im1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -45px;
+    left: -110px;
+ }  
+ .im2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -40px;
+    left: -170px;
+ }
+ fieldset{
+    width: 320px;
+    height: 445px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 4px yellowgreen;
+   
+   
+ }
+ form label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+ }
+ form  input {
+    
+    font-size: 18px;
+    display:block;
+    width: 300px;
+   
+    
+ }
+ form  textarea {
+    float: bottom;
+    padding-bottom: 100px;
+    padding-right: 150px;
+   
+    margin-left: 0px;
+    
+    
+ }
+ legend{
+    font-size: 18px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+
+ }
+ .bouton{
+   text-align: center;
+   font-size: 18px;
+   background-color: orange;
+   font-weight: bold;
+   width: 100px;
+   margin-left: 100px;
+ }
+ 
+/*pied de page*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 300px;
+    top: -150px
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 370px;
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+}  
+footer .pied1{
+    color: white;
+    font-size: 15px;
+    margin-left:10px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 15px;
+    margin-left:200px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+}
+}
+

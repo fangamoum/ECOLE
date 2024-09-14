@@ -1,0 +1,242 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+/*entête de la page*/
+header{
+    height: 100%;
+}
+
+header h2{
+    font-size: 25px;
+    margin-top:20px ;
+    margin-left: 30px;
+}
+header .travail{
+    font-size: 13px;
+    color: red;
+    float: left;
+    margin-left: 100px;
+    margin-top: -15px;
+    
+}
+header .justice{
+    font-size: 13px;
+    color: yellow;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+header .solidarite{
+    font-size: 13px;
+    color: green;
+    float: left;
+    margin-left: 5px;
+    margin-top: -15px;
+    
+}
+
+.logo{
+    width: 130px;
+    height: 100px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.pri-sec{
+   margin-left: 650px;
+   margin-top: -40px;
+   display:block;
+   word-spacing: 20px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+  
+}
+.pri-sec a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px black;
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 3px blue;
+   
+}
+nav ul  {
+    list-style: none;
+}
+nav li{
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 40px;
+}
+ nav a{
+     text-decoration: none;
+     margin-left: 0px;
+     color: black;
+     padding: 10px 20px;
+     font-size: 25px;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .ind :hover{
+    background-color: yellowgreen;
+ }
+
+ /*section1*/
+ .sec1{
+    width: 100%;
+    height: 750px;
+    margin-top: 30px;
+   
+ }
+ fieldset{
+    width: 300px;
+    height: 650px;
+    margin-left: 850px;
+}
+
+ legend{
+    font-size: 18px;
+    font-weight: bold;
+ }
+ 
+ 
+  form label{
+    display: block;
+    line-height: 30px;
+    font-weight: bolder;
+  }
+  form input{
+       width: 290px; 
+       height: 20px;
+       background-color: rgb(229, 226, 226);
+       border-radius: 5px;
+  }
+  .sect{
+    width: 297px; 
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(229, 226, 226);
+  }
+  .bouton{
+    margin-top: 5px;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(0, 34, 255);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+ }
+ .div1{
+    width: 240px;
+    position: absolute;
+    top: 220px;
+    margin-left: 10px;
+
+ }
+ .p-intro{
+    width: 550px;
+    position: absolute;
+    top: 400px;
+    margin-left: 280px;
+    text-align: center;
+    background-color: rgb(230, 227, 227) ;
+    border-radius: 40px;
+    box-shadow: 0px 0px 2px blue;
+
+}
+.p-intro a{
+    background-color: yellowgreen;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 340px;
+    color: black;
+ }
+ .p-intro h2{
+   font-size: 18px;
+   
+ }
+  
+/*pied de page*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 104, 104);
+    color: white;
+    font-size: 16px;
+}
+.whatsapt2 , .facebook{
+    
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 600px;
+    top: -150px
+    
+}
+.whatsapt2{
+    background-image: url(../images/im17.png);
+    background-position: 0px 0px;
+    border-radius: 50px;
+    background-size: cover;
+    position: relative;
+    left: 590px;
+   
+    
+}
+.facebook{
+    background-image: url(../images/f1.png);
+    background-position: 0px 0px;
+    border-radius: 50%; /* Cela rend l'icône circulaire */
+    background-size: cover;
+    
+}  
+footer .pied1{
+    color: white;
+    font-size: 18px;
+    margin-left:50px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :40px
+}
+footer .pied2{
+    color: white;
+    font-size: 18px;
+    margin-left:300px ;
+    text-decoration: none;
+    line-height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top :-80px
+    
+}
+.sec-pied{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(102, 104, 104);
+    border-top: 1px solid white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter;
+   
+}
+
+
